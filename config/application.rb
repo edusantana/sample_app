@@ -29,5 +29,7 @@ module SampleApp
     #http://ruby.railstutorial.org/chapters/filling-in-the-layout#top
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
 
+    I18n.enforce_available_locales = true
+
   end
 end
